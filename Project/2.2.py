@@ -73,7 +73,7 @@ def main():
     L      = 2.5
     TL     = Tinf
     alpha1 = 4*hc / (D*K)
-    alpha2 = 0.0 # ingen strålning?
+    alpha2 = 0.0 # ingen strålning
  
     N = 400
     x_num, T_num = solve_fin_bvp(N, L, alpha1, alpha2, Ts, TL, Tinf)
